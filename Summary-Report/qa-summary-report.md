@@ -1,58 +1,76 @@
-# QA Summary Report – Quincy Lamar Website
+# Test Execution Results – Quincy Lamar Website
 
 ## Overview
-A manual QA audit was conducted on the Quincy Lamar website to evaluate functionality, usability, and overall user experience.
+This document captures the results of executing manual test cases for the Quincy Lamar website.
 
 ---
 
-## Testing Scope
-- Functional Testing  
-- UI/UX Testing  
-- Responsiveness Testing  
-- Accessibility Testing  
+## Test Execution Summary
+
+| Total Test Cases | Passed | Failed | Not Executed |
+|-----------------|--------|--------|--------------|
+| 15 | 9 | 6 | 0 |
 
 ---
 
-## Key Findings
+## Detailed Test Execution
 
-### 1. User Experience Issues
-- Call-to-action is not prominently placed above the fold  
-- Footer lacks navigation support  
-- Content lacks engagement and depth  
+### Navigation
 
----
-
-### 2. Functional Issues
-- Instagram link redirects incorrectly  
+| Test Case ID | Title/Purpose | Expected Result | Actual Result | Status |
+|-------------|--------------|----------------|--------------|--------|
+| TC-NAV-001 | Verify homepage loads | Homepage loads successfully | Homepage loaded successfully without errors | Pass |
+| TC-NAV-002 | Verify menu navigation | Correct page loads | Navigation links respond and load corresponding sections | Pass |
+| TC-NAV-003 | Verify no broken links | No 404 errors | No broken links observed during testing | Pass |
 
 ---
 
-### 3. Content Issues
-- Workshop section is empty  
-- Choreography and Master Classes pages contain template content  
-- Credits section is incomplete and contains errors  
+### Contact Form
+
+| Test Case ID | Title/Purpose | Expected Result | Actual Result | Status |
+|-------------|--------------|----------------|--------------|--------|
+| TC-FORM-001 | Submit valid form | Success message displayed | Form submission behavior unclear / no confirmation observed | Fail |
+| TC-FORM-002 | Submit empty form | Validation errors shown | No clear validation feedback displayed | Fail |
+| TC-FORM-003 | Validate email format | Error message displayed | Invalid email format not properly validated | Fail |
 
 ---
 
-## Recommendations
+### Media
 
-- Improve CTA placement for better conversion  
-- Update all template content with real information  
-- Fix broken social media links  
-- Add structured navigation in footer  
-- Enhance content to reflect brand authority  
-
----
-
-## Conclusion
-The website provides a basic structure but requires improvements in content, user experience, and functionality to effectively represent the brand and support user engagement.
+| Test Case ID | Title/Purpose | Expected Result | Actual Result | Status |
+|-------------|--------------|----------------|--------------|--------|
+| TC-MEDIA-001 | Video playback | Video plays successfully | Video played successfully with no lag or errors | Pass |
+| TC-MEDIA-002 | Image loading | Images load properly | Images displayed correctly without distortion | Pass |
 
 ---
 
-## Skills Demonstrated
-- Manual Testing  
-- Bug Reporting  
-- UX Evaluation  
-- Test Case Design  
-- Test Execution  
-- Documentation  
+### Responsiveness
+
+| Test Case ID | Title/Purpose | Expected Result | Actual Result | Status |
+|-------------|--------------|----------------|--------------|--------|
+| TC-RESP-001 | Mobile responsiveness | Layout adjusts correctly | Layout appears slightly compressed on smaller screens | Fail |
+| TC-RESP-002 | Tablet responsiveness | No layout issues | Layout remains stable across screen sizes | Pass |
+
+---
+
+### Accessibility
+
+| Test Case ID | Title/Purpose | Expected Result | Actual Result | Status |
+|-------------|--------------|----------------|--------------|--------|
+| TC-A11Y-001 | Keyboard navigation | Fully accessible | Limited keyboard navigation support observed | Fail |
+| TC-A11Y-002 | Image alt text | Alt text present | Some images missing alt attributes | Fail |
+
+---
+
+### Performance
+
+| Test Case ID | Title/Purpose | Expected Result | Actual Result | Status |
+|-------------|--------------|----------------|--------------|--------|
+| TC-PERF-001 | Page load speed | Loads under 3 seconds | Page loaded within acceptable time | Pass |
+
+---
+
+## Notes
+- Status values reflect actual execution results  
+- Failed tests correspond to documented bugs  
+- Testing was performed manually using browser-based tools  

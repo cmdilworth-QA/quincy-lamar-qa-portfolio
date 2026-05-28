@@ -1,7 +1,39 @@
-# Test Execution Results – Quincy Lamar Website
+# QA Summary Report – Quincy Lamar Website
 
 ## Overview
-This document captures the results of executing manual test cases for the Quincy Lamar website.
+A comprehensive manual QA audit was conducted on the Quincy Lamar website to evaluate functionality, usability, content accuracy, and overall user experience.
+
+The objective was to identify defects, validate core functionality, and assess how effectively the website supports user engagement and brand representation.
+
+---
+
+## Testing Scope
+- Functional Testing  
+- UI/UX Evaluation  
+- Responsiveness Testing  
+- Accessibility Review  
+- Content Validation  
+
+---
+
+## Key Findings
+
+### Functional Issues
+- Instagram link redirects to an incorrect external page instead of the intended profile  
+
+---
+
+### Content Issues
+- Workshop section is empty with no placeholder or messaging  
+- Choreography and Master Classes pages contain default template content  
+- Credits section is incomplete and contains spelling errors  
+
+---
+
+### User Experience (UX) Issues
+- Call-to-action is not prominently visible above the fold  
+- Footer lacks navigation links, limiting user flow  
+- Some sections lack sufficient content depth to effectively engage users  
 
 ---
 
@@ -9,68 +41,33 @@ This document captures the results of executing manual test cases for the Quincy
 
 | Total Test Cases | Passed | Failed | Not Executed |
 |-----------------|--------|--------|--------------|
-| 15 | 9 | 6 | 0 |
+| 13 | 8 | 5 | 13 |
 
 ---
 
-## Detailed Test Execution
+## Recommendations
 
-### Navigation
-
-| Test Case ID | Title/Purpose | Expected Result | Actual Result | Status |
-|-------------|--------------|----------------|--------------|--------|
-| TC-NAV-001 | Verify homepage loads | Homepage loads successfully | Homepage loaded successfully without errors | Pass |
-| TC-NAV-002 | Verify menu navigation | Correct page loads | Navigation links respond and load corresponding sections | Pass |
-| TC-NAV-003 | Verify no broken links | No 404 errors | No broken links observed during testing | Pass |
-
----
-
-### Contact Form
-
-| Test Case ID | Title/Purpose | Expected Result | Actual Result | Status |
-|-------------|--------------|----------------|--------------|--------|
-| TC-FORM-001 | Submit valid form | Success message displayed | Form submission behavior unclear / no confirmation observed | Fail |
-| TC-FORM-002 | Submit empty form | Validation errors shown | No clear validation feedback displayed | Fail |
-| TC-FORM-003 | Validate email format | Error message displayed | Invalid email format not properly validated | Fail |
+- Correct all broken or misdirected links to ensure proper navigation  
+- Replace all template content with finalized, brand-specific information  
+- Add “Coming Soon” messaging for incomplete sections  
+- Improve CTA placement to increase visibility and conversion  
+- Enhance footer navigation to support user flow  
+- Expand content to better reflect brand identity and professional experience  
 
 ---
 
-### Media
+## Conclusion
+The website provides a foundational structure but requires improvements in functionality, content completeness, and user experience to effectively represent the brand and support user engagement.
 
-| Test Case ID | Title/Purpose | Expected Result | Actual Result | Status |
-|-------------|--------------|----------------|--------------|--------|
-| TC-MEDIA-001 | Video playback | Video plays successfully | Video played successfully with no lag or errors | Pass |
-| TC-MEDIA-002 | Image loading | Images load properly | Images displayed correctly without distortion | Pass |
+Addressing these issues will significantly improve usability, credibility, and overall performance.
 
 ---
 
-### Responsiveness
-
-| Test Case ID | Title/Purpose | Expected Result | Actual Result | Status |
-|-------------|--------------|----------------|--------------|--------|
-| TC-RESP-001 | Mobile responsiveness | Layout adjusts correctly | Layout appears slightly compressed on smaller screens | Fail |
-| TC-RESP-002 | Tablet responsiveness | No layout issues | Layout remains stable across screen sizes | Pass |
-
----
-
-### Accessibility
-
-| Test Case ID | Title/Purpose | Expected Result | Actual Result | Status |
-|-------------|--------------|----------------|--------------|--------|
-| TC-A11Y-001 | Keyboard navigation | Fully accessible | Limited keyboard navigation support observed | Fail |
-| TC-A11Y-002 | Image alt text | Alt text present | Some images missing alt attributes | Fail |
-
----
-
-### Performance
-
-| Test Case ID | Title/Purpose | Expected Result | Actual Result | Status |
-|-------------|--------------|----------------|--------------|--------|
-| TC-PERF-001 | Page load speed | Loads under 3 seconds | Page loaded within acceptable time | Pass |
-
----
-
-## Notes
-- Status values reflect actual execution results  
-- Failed tests correspond to documented bugs  
-- Testing was performed manually using browser-based tools  
+## Skills Demonstrated
+- Manual Testing  
+- Functional Testing  
+- UI/UX Evaluation  
+- Bug Reporting  
+- Test Case Design  
+- Test Execution  
+- Documentation    

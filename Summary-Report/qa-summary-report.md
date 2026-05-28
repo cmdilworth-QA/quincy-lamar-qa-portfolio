@@ -71,3 +71,11 @@ Addressing these issues will significantly improve usability, credibility, and o
 - Test Case Design  
 - Test Execution  
 - Documentation    
+
+----
+
+## Tools Used
+- GitHub
+- Chrome DevTools
+- Manual Testing Techniques
+- Responsive Design Mode

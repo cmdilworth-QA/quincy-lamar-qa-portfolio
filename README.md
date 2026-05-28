@@ -12,18 +12,18 @@ QA Audit
 This audit represents a **comprehensive QA evaluation** of the Quincy Lamar artist website, identifying 12 critical issues across content completeness, UX/navigation, link functionality, and brand alignment. The project demonstrates systematic testing methodology, professional bug reporting, and strategic recommendations for website improvement.
 
 **Key Skills Demonstrated:**
-- ✅ Content audit and completeness testing
-- ✅ UX/navigation testing and gap analysis
-- ✅ Link verification and QA testing
-- ✅ Bug categorization and severity assessment
-- ✅ Test case documentation (formal QA format)
-- ✅ Strategic recommendations and prioritization
-- ✅ Cross-device/responsive testing
-- ✅ Professional communication of findings
+- Content audit and completeness testing
+- UX/navigation testing and gap analysis
+- Link verification and QA testing
+- Bug categorization and severity assessment
+- Test case documentation (formal QA format)
+- Strategic recommendations and prioritization
+- Cross-device/responsive testing
+- Professional communication of findings
 
 ---
 
-## 🎯 Executive Summary
+## Executive Summary
 
 | Metric | Result |
 |--------|--------|
@@ -32,7 +32,7 @@ This audit represents a **comprehensive QA evaluation** of the Quincy Lamar arti
 | **Critical Issues** | 2 |
 | **High Priority Issues** | 8 |
 | **Medium Priority Issues** | 2 |
-| **Overall Status** | 🔴 NOT PRODUCTION READY |
+| **Overall Status** | NOT PRODUCTION READY |
 
 **Key Findings:**
 - Website contains mostly template content
@@ -44,7 +44,7 @@ This audit represents a **comprehensive QA evaluation** of the Quincy Lamar arti
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
 ### Test Cases & Documentation
 - **[Full Test Cases](./test-cases/)** - Detailed test cases in formal QA format
@@ -65,9 +65,9 @@ This audit represents a **comprehensive QA evaluation** of the Quincy Lamar arti
 
 ---
 
-## 🔍 Test Case Examples
+## Test Cases
 
-### Example 1: Critical Issue - Brand Not Represented
+### Critical Issue - Brand Not Represented
 **Test ID:** TC-012  
 **Severity:** CRITICAL  
 **Status:** ❌ FAIL
@@ -82,7 +82,7 @@ This audit represents a **comprehensive QA evaluation** of the Quincy Lamar arti
 
 ---
 
-### Example 2: High Priority - Instagram Link Broken
+### High Priority - Instagram Link Broken
 **Test ID:** TC-011  
 **Severity:** HIGH  
 **Status:** ❌ FAIL
@@ -101,7 +101,7 @@ This audit represents a **comprehensive QA evaluation** of the Quincy Lamar arti
 
 ---
 
-### Example 3: High Priority - Missing Footer Navigation
+###High Priority - Missing Footer Navigation
 **Test ID:** TC-007  
 **Severity:** HIGH  
 **Status:** ❌ FAIL
@@ -116,33 +116,33 @@ This audit represents a **comprehensive QA evaluation** of the Quincy Lamar arti
 
 ---
 
-## 🎓 What This Audit Demonstrates
+## What This Audit Demonstrates
 
 ### QA Technical Skills
-- ✅ Systematic testing methodology
-- ✅ Formal test case documentation
-- ✅ Bug identification and severity assessment
-- ✅ Cross-device/responsive testing
-- ✅ Link verification testing
-- ✅ Content completeness auditing
+- Systematic testing methodology
+- Formal test case documentation
+- Bug identification and severity assessment
+- Cross-device/responsive testing
+- Link verification testing
+- Content completeness auditing
 
 ### QA Soft Skills
-- ✅ Clear communication of findings
-- ✅ Professional bug reporting
-- ✅ Strategic prioritization (prioritized action items)
-- ✅ Understanding user experience impact
-- ✅ Actionable recommendations
-- ✅ Empathy for user journey
+- Clear communication of findings
+- Professional bug reporting
+- Strategic prioritization (prioritized action items)
+- Understanding user experience impact
+- Actionable recommendations
+- Empathy for user journey
 
 ### Business Acumen
-- ✅ Recognizing brand/reputation impact
-- ✅ Understanding business consequences of bugs
-- ✅ Suggesting holistic improvements (not just fixes)
-- ✅ Considering user perspective and engagement
+- Recognizing brand/reputation impact
+- Understanding business consequences of bugs
+- Suggesting holistic improvements (not just fixes)
+- Considering user perspective and engagement
 
 ---
 
-## 📊 Test Coverage
+## Test Coverage
 
 | Category | Pages Tested | Tests Completed | Pass Rate |
 |----------|-------------|-----------------|-----------|
@@ -185,7 +185,7 @@ This audit shows I can:
 
 ---
 
-## 📝 Testing Methodology
+## Testing Methodology
 
 **Test Type:** Manual Content & UX Audit  
 **Duration:** ~8-10 hours  
@@ -198,7 +198,7 @@ See [Testing Methodology](./docs/testing-methodology.md) for detailed approach.
 
 ---
 
-## 🎯 Recommended Action Items (Prioritized)
+## Recommended Action Items (Prioritized)
 
 ### Phase 1: Immediate (Launch Holding Page)
 - [ ] Deploy "Under Construction" holding page
@@ -246,7 +246,7 @@ This audit and documentation are provided as a portfolio example. Feel free to r
 
 ---
 
-## 🔗 Related Projects
+## Related Projects
 
 - [Creative Services Boutique QA Portfolio](#)
 - [Other Audits & Test Cases](#)

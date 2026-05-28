@@ -1,7 +1,7 @@
 # QA Audit – Quincy Lamar Website
 
 ## Project Overview
-This project showcases a full manual QA audit conducted on a live portfolio website. The audit focuses on validating functionality, identifying defects, and evaluating overall user experience.
+This repository documents a full manual QA audit conducted on a live production website, including test planning, execution, bug reporting, and UX evaluation.
 
 ## Website Tested
 https://www.quincylamar.com/

@@ -1,45 +1,43 @@
 # QA Audit – Quincy Lamar Website
 
 ## Project Overview
-This project demonstrates my QA engineering skills by performing a manual test audit on a live portfolio website.
+This project showcases a full manual QA audit conducted on a live portfolio website. The audit focuses on validating functionality, identifying defects, and evaluating overall user experience.
 
 ## Website Tested
 https://www.quincylamar.com/
 
 ## Objectives
 - Validate core functionality  
-- Identify usability issues  
-- Evaluate user experience  
-- Document defects and improvements  
+- Identify defects and usability issues  
+- Evaluate user experience and content quality  
+- Provide actionable recommendations  
 
 ## Testing Scope
 - Functional Testing  
-- UI/UX Testing  
+- UI/UX Evaluation  
 - Responsiveness Testing  
-- Accessibility Testing  
-- Performance Testing  
+- Accessibility Review  
+- Content Validation  
 
-## Tools Used
-- Manual Testing  
-- Chrome DevTools  
-- Responsive Design Mode  
-- Lighthouse  
+## Key Findings
+- Broken social media link (Instagram redirect issue)  
+- Multiple sections contain incomplete or template content  
+- Limited visibility of primary call-to-action  
+- Gaps in navigation and content engagement  
 
 ## Project Structure
 - Test Plan  
 - Test Cases  
-- Bug Reports  
 - Test Execution Results  
+- Bug Reports  
 - QA Summary Report  
+- Screenshots  
 
-## Key Findings
-- Navigation is functional but lacks strong conversion flow  
-- Contact experience is limited  
-- Accessibility improvements needed  
-- Mobile responsiveness inconsistencies  
-
-## Recommendations
-- Add clear call-to-action (CTA)  
-- Improve user engagement flow  
-- Enhance accessibility compliance  
-- Optimize mobile experience  
+## Skills Demonstrated
+- Manual Testing  
+- Functional Testing  
+- UI/UX Analysis  
+- Bug Reporting  
+- Test Case Development  
+- Test Execution  
+- QA Documentation  

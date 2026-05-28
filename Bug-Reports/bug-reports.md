@@ -49,7 +49,8 @@ User is redirected to Wix Instagram page instead
 **Severity:** High  
 **Priority:** High  
 **Status:** Open  
-
+Screenshot:
+![Instagram Link Bug](../Screenshots/02-instagram-link-broken.png)
 ---
 
 ## Bug 3
@@ -71,7 +72,8 @@ Section is blank with no information
 **Severity:** Medium  
 **Priority:** High  
 **Status:** Open  
-
+Screenshot:
+![Workshop Section](../Screenshots/03-home-page-overview.png)
 ---
 
 ## Bug 4
@@ -94,7 +96,8 @@ Default template text is still present
 **Severity:** Medium  
 **Priority:** High  
 **Status:** Open  
-
+Screenshot:
+![Choreography Template](../Screenshots/screencapture-bug04-defaultchoreographysection.png)
 ---
 
 ## Bug 5
@@ -117,7 +120,8 @@ Key credits are missing and spelling errors are present
 **Severity:** Medium  
 **Priority:** Medium  
 **Status:** Open  
-
+Screenshot:
+![Credits Spelling Issue](../Screenshots/screencapture-quincylamar-resume-keith misspelled.png)
 ---
 
 ## Bug 6
@@ -139,7 +143,8 @@ Default template content is displayed
 **Severity:** Medium  
 **Priority:** High  
 **Status:** Open  
-
+Screenshot:
+![Template Content](../Screenshots/screencapture-bug04-defaultchoreographysection.png)
 ---
 
 ## Bug 7
@@ -161,7 +166,8 @@ Footer does not provide navigation options
 **Severity:** Low  
 **Priority:** Medium  
 **Status:** Open  
-
+Screenshot:
+![Footer Navigation](../Screenshots/03-home-page-overview.png)
 ---
 
 ## Notes

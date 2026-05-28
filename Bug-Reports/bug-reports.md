@@ -25,7 +25,8 @@ Call-to-action elements are present but located mid-page, reducing visibility
 **Severity:** Medium  
 **Priority:** High  
 **Status:** Open  
-
+Screenshot:
+![CTA Placement](../Screenshots/bug-001-cta-placement.png)
 ---
 
 ## Bug 2
